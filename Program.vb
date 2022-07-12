@@ -139,9 +139,10 @@ Module Program
         ADPathShort = ADPathShort.Substring(0, ADPathShort.Length - 1)
         Dim de As New DirectoryEntry("LDAP://" & ADPathShort)
         Dim ds As New DirectorySearcher(de) With {.Filter = ("(maxPwdAge=*)")}
+        Dim maxpwdage As Int64
         Try
             Dim srcResult As SearchResult = ds.FindOne
-            Dim maxpwdage As Int64 = Convert.ToInt64(srcResult.Properties("maxPwdAge").Item(0))
+            maxpwdage = Convert.ToInt64(srcResult.Properties("maxPwdAge").Item(0))
             maxpwdage = maxpwdage / 60 / 60 / 24 / 10000000 * -1
             If Var.debug Then
                 Console.WriteLine("maxpwdage -> " & maxpwdage)
