@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "pwdEMail", "pwdEMail.vbproj", "{942EAC8E-5880-42E9-94BE-9ACFD658BDAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{942EAC8E-5880-42E9-94BE-9ACFD658BDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942EAC8E-5880-42E9-94BE-9ACFD658BDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942EAC8E-5880-42E9-94BE-9ACFD658BDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942EAC8E-5880-42E9-94BE-9ACFD658BDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDDDB7C2-2BCC-4C67-9665-9562D78F4B62}
+	EndGlobalSection
+EndGlobal

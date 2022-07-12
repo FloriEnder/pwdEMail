@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<configuration>
+	<ADPath>OU=Test,OU=Test,DC=Test,DC=local</ADPath>
+	<ldapfilter>(objectClass=person)</ldapfilter>
+	<mailserver>mail.yourdomain.tld</mailserver>
+	<mailserverport>587</mailserverport>
+	<mailuser>UserName</mailuser>
+	<mailuserpwd>Passwort</mailuserpwd>
+	<mailsender>user@yourdomain.tld</mailsender>
+	<mailRplyTo>user@yourdomain.tld</mailRplyTo>
+	<mailSubject>Was auch immer du möchtest</mailSubject>
+	<PathToLogo>c:\Pfad\zum\Logo.png</PathToLogo>
+	<sendadminmail>true</sendadminmail>
+	<adminmail>admin@yourdomain.tld</adminmail>
+	<mailSubjectAdmin>Was immer du möchtest</mailSubjectAdmin>
+	<debug>false</debug>
+</configuration>
